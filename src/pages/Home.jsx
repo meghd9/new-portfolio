@@ -6,6 +6,7 @@ import { SkillsSection } from "../components/SkillsSection";
 import { StarBackground } from "../components/StarBackground";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { ContactSection } from "../components/ContactSection";
+import { Footer } from "../components/Footer";
 
 const Home = () => {
   return (
@@ -13,11 +14,14 @@ const Home = () => {
       <ThemeToggle />
       <StarBackground />
       <Navbar />
-      <HeroSection />
-      <AboutSection />
-      <SkillsSection />
-      <ProjectsSection />
-      <ContactSection />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <SkillsSection />
+        <ProjectsSection />
+        <ContactSection />
+      </main>
+      <Footer />
     </div>
   );
 };
