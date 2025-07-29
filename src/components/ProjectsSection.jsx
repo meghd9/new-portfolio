@@ -1,4 +1,5 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
+import { SiGithub } from "react-icons/si";
 
 const projects = [
   // {
@@ -87,7 +88,7 @@ export const ProjectsSection = () => {
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <Github size={20} />
+                      <SiGithub size={20} />
                     </a>
                   </div>
                 </div>
