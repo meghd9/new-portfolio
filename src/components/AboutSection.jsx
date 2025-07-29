@@ -9,7 +9,7 @@ export const AboutSection = () => {
           About <span className="text-primary"> Me</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-11 items-center text-left">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
               Passionate Web Developer & Sustainability Consultant
@@ -41,11 +41,19 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
 
-              <a
+              {/* <a
                 href=""
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
+              </a> */}
+              <a
+                href="/path-to-your-cv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
+                CV
               </a>
             </div>
           </div>
@@ -88,9 +96,9 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Project Management</h4>
                   <p className="text-muted-foreground">
-                    Experienced in contributing to projects from conception to completion using agile
-                    methodologies in both software development and business
-                    operations.
+                    Experienced in contributing to projects from conception to
+                    completion using agile methodologies in both software
+                    development and business operations.
                   </p>
                 </div>
               </div>
