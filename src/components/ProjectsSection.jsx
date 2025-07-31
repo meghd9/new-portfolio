@@ -1,16 +1,17 @@
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { SiGithub } from "react-icons/si";
 import project from "../assets/projects/project.png";
+import project1 from "../assets/projects/project1.png";
 
 const projects = [
   {
     id: 1,
     title: "Self-directed Learning",
     description: "A self-directed learning platform using MERN stack.",
-    image: project,
+    image: project1,
     tags: ["React", "MongoDB"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://self-directed-learning.netlify.app",
+    githubUrl: "https://github.com/meghd9/self-directed-learning",
   },
   {
     id: 2,
