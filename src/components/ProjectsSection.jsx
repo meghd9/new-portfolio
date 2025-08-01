@@ -2,6 +2,7 @@ import { ArrowRight, ExternalLink } from "lucide-react";
 import { SiGithub } from "react-icons/si";
 import project from "../assets/projects/project.png";
 import project1 from "../assets/projects/project1.png";
+import project2 from "../assets/projects/project2.png";
 
 const projects = [
   {
@@ -25,11 +26,11 @@ const projects = [
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Skia - A Lifestyle App",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: project,
-    tags: ["React", "Node.js", "Stripe"],
+      "A lifestyle app to follow routines of famous celebrities.",
+    image: project2,
+    tags: ["Android Studio", "Figma"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -80,13 +81,13 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
+                    {/* <a
                       href={project.demoUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
-                    </a>
+                    </a> */}
                     <a
                       href={project.githubUrl}
                       target="_blank"
