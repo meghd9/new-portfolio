@@ -83,9 +83,9 @@ Your app will be available at: [http://localhost:5173](http://localhost:5173)
 
 ## 🖼️ Screenshots
 
-[Main Screenshot](./screenshots/main-section.png)
+![Main Screenshot](./screenshots/main-section.png)
 
-[Projects Screenshot](./screenshots/projects.png)
+![Projects Screenshot](./screenshots/projects.png)
 
 ---
 
