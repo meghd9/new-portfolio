@@ -1,24 +1,6 @@
-<!-- # React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project. -->
-
 # Modern Portfolio Website with React & TailwindCSS
 
 <div align="center">
-  <!-- <br />
-  <a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank">
-    <img src="./banner.png" alt="Portfolio Website Banner">
-  </a>
-  <br /> -->
   <h3 align="center">Developer Portfolio with Animations, Dark Mode and Projects Showcase</h3>
   <div>
     <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
@@ -41,40 +23,40 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## ⚙️ Tech Stack
 
-* **React** – Component-based UI development
-* **Vite** – Lightning-fast build tool
-* **TailwindCSS** – Utility-first CSS for styling
-* **Lucide Icons** – Clean and beautiful icon pack
-* **Radix UI** – Accessible component primitives
-* **TypeScript (optional)** – Type safety and tooling
-* **GitHub & Vercel** – Deployment
+- **React** – Component-based UI development
+- **Vite** – Lightning-fast build tool
+- **TailwindCSS** – Utility-first CSS for styling
+- **Lucide Icons** – Clean and beautiful icon pack
+- **Radix UI** – Accessible component primitives
+- **TypeScript (optional)** – Type safety and tooling
+- **GitHub & Vercel** – Deployment
 
 ---
 
 ## ⚡️ Features
 
-* 🌑 **Light/Dark Mode Toggle**
+- 🌑 **Light/Dark Mode Toggle**
   Save theme preference in local storage with beautiful transitions
 
-* 💫 **Animated Backgrounds**
+- 💫 **Animated Backgrounds**
   Stars, meteors, scroll effects, and glowing UI elements
 
-* 📱 **Responsive Navigation**
+- 📱 **Responsive Navigation**
   Desktop and mobile menus with glassmorphism
 
-* 👨‍💻 **Hero & About Sections**
+- 👨‍💻 **Hero & About Sections**
   Showcase who you are with smooth intro animations and buttons
 
-* 📊 **Skills Grid**
+- 📊 **Skills Grid**
   Filterable progress bars and categories with animated width
 
-* 🖼️ **Projects Showcase**
+- 🖼️ **Projects Showcase**
   Display screenshots, tech stacks, and GitHub/demo links
 
-* 📩 **Contact Section**
+- 📩 **Contact Section**
   Social icons + responsive contact form with toast notifications
 
-* 🚀 **One-Click Deployment**
+- 🚀 **One-Click Deployment**
   Easily host your site with Vercel and GitHub
 
 ---
@@ -83,8 +65,8 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ### Prerequisites
 
-* [Node.js](https://nodejs.org/)
-* [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 
 ### Clone and Run
 
@@ -101,8 +83,9 @@ Your app will be available at: [http://localhost:5173](http://localhost:5173)
 
 ## 🖼️ Screenshots
 
-> 📸 Add screenshots of your Hero section, Projects grid, and Contact form here to show off your site.
-![alt text](<Screenshot 2025-08-26 at 2.47.09 PM.png>)
+[Main Screenshot](./screenshots/main-section.png)
+
+[Projects Screenshot](./screenshots/projects.png)
 
 ---
 
@@ -119,14 +102,13 @@ Your app will be available at: [http://localhost:5173](http://localhost:5173)
 
 Your live website will be hosted on a custom subdomain (e.g. `https://your-name.netlify.app`)
 
-
 ## 🔗 Useful Links
 
-* [React Documentation](https://reactjs.org/)
-* [Tailwind CSS Docs](https://tailwindcss.com/)
-* [Lucide Icons](https://lucide.dev/)
-* [Radix UI](https://www.radix-ui.com/)
-* [Vite](https://vitejs.dev/)
-* [Vercel](https://vercel.com/)
+- [React Documentation](https://reactjs.org/)
+- [Tailwind CSS Docs](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Vite](https://vitejs.dev/)
+- [Vercel](https://vercel.com/)
 
 ---
